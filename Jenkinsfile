@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        echo "hello world 1"
+        echo "hello world 2"
         checkout scm
       }
     }
